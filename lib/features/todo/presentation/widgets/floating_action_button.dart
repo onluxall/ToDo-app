@@ -1,0 +1,9 @@
+/*
+
+  Floating Action Button
+  A reusable floating action button widget that can be used to trigger actions such as adding a new
+  todo item. It accepts an onPressed callback to handle button presses.
+  This widget can be easily integrated into different parts of the app where a floating action button is needed.
+
+
+*/
