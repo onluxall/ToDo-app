@@ -1,16 +1,55 @@
-# todo_app
+# 📝 Flutter To-Do App (Clean Architecture + BloC + Isar DB)
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)](https://flutter.dev) 
+[![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)](https://dart.dev) 
+[![BloC](https://img.shields.io/badge/BloC-00BFA6?logo=flutter&logoColor=white)](https://bloclibrary.dev/#/) 
+[![Isar](https://img.shields.io/badge/Isar_DB-FC8019?logo=database&logoColor=white)](https://isar.dev) 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+A modern **To-Do application** built with **Flutter**, following **Clean Architecture principles** and powered by the **BloC state management pattern**.  
+The app uses **[Isar Database](https://isar.dev/)** for fast, efficient, and reliable offline-first data persistence.  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
+- ✅ Add, update, delete tasks  
+- 🔄 Real-time task state management with **BloC**  
+- 💾 Offline-first support using **Isar DB**  
+- 🎨 Minimal, clean, and responsive UI  
+- 🧪 Testable and maintainable **Clean Architecture** structure  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🏗️ Architecture
+This project strictly follows **Clean Architecture**, ensuring scalability and separation of concerns:
+
+- **Domain Layer** → Business logic (entities, use cases, repositories)  
+- **Data Layer** → Data sources & models (Isar DB integration)  
+- **Presentation Layer** → UI + BloC (state management, events, states)  
+
+This makes the codebase **modular, testable, and easy to extend**.  
+
+
+---
+
+## 🛠️ Tech Stack
+- **Flutter** – UI framework  
+- **BloC** – State management  
+- **Isar DB** – Local NoSQL database  
+- **Dart** – Programming language  
+
+---
+
+## 📦 Getting Started
+```bash
+# Clone the repository
+git clone https://github.com/onluxall/ToDo-app.git
+
+# Navigate into the project
+cd ToDo-app
+
+# Get dependencies
+flutter pub get
+
+# Run the app
+flutter run
